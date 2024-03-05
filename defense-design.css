@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    border: 4px solid blue;
+    /* border: 4px solid blue; */
     background-color: whitesmoke;
 }
 .general-child{
@@ -22,7 +22,7 @@ header{
     align-items: center;
     height: 15vh;
     font-size: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 nav{
     display: flex;
@@ -54,7 +54,7 @@ header b{
  main{
     width: 100%;
     height: 95vh;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ header b{
  .main-content{
     width: 100%;
     height: 90%;
-    border: 4px solid purple;
+    /* border: 4px solid purple; */
     display: flex;
     justify-content: space-between;
   
@@ -78,12 +78,12 @@ header b{
  .analytics-intro{
         width: 50%;
         height: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
  }
  .analytics-img{
     width: 45%;
     height: 140%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
  }
  .analytics-img img{
     width: 100%;
@@ -96,14 +96,14 @@ header b{
     margin-top: 25px;
  }
  .all-picture{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 18%;
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 .picture-content{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
 }
 .first-picture{
@@ -154,12 +154,12 @@ header b{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid blue;
+    /* border: 4px solid blue; */
     height: 650px;
    
 }
 .features-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     height: 500px;
 }
@@ -168,7 +168,7 @@ header b{
     text-shadow: 3px 3px red;
     font-size: 30px;
     width: 40%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .feature-flex{
     display: flex;
@@ -206,7 +206,7 @@ header b{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid blue;
+    /* border: 4px solid blue; */
     height: 650px;
     background-color: rgb(139, 243, 209);
     position: relative;
@@ -217,14 +217,14 @@ header b{
     left:10%;
 }
 .customer-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     height: 500px;
     display:flex;
     gap:30px;
 }
 .intro-border{
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     height:230px;
     width: 33%;
     display: flex;
@@ -234,7 +234,7 @@ header b{
    background-color: white;
 }
 .first-border{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
@@ -257,7 +257,7 @@ header b{
 }
 
 .intro2-border{
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
   width: 33%;
   height:350px;
   padding: 10px;
@@ -267,7 +267,7 @@ header b{
   background-color: white;
 }
 .second-border{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   
@@ -275,7 +275,7 @@ header b{
 
 
 .intro3-border{
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     width: 33%;
     height:230px;
     padding: 10px;
@@ -285,12 +285,12 @@ header b{
     background-color: white;
 }
 .third-border{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
 .price-plan{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     height: 500px;
     display: flex;
@@ -300,15 +300,17 @@ header b{
     gap: 20px;
 }
 .price-content{
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     width: 30%;
     height: 150px;
     text-align: center;
 }
 .price-content-2{
-    border: 1px dashed red;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: antiquewhite;
     width: 30%;
-    height: 300px;
+    height: 400px;
     padding: 20px;
    
 }
@@ -333,7 +335,48 @@ header b{
     margin-top: 10px;
    border-bottom: 2px solid black;
 }
-
+.last-picture{
+    /* border: 2px solid red; */
+    background-color: rgb(111, 190, 233);
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.p-picture{
+   font-size: 20px;
+   color: white;
+}
+.twitter-svg{
+   height: 30px;
+}
+.my-nav{
+    /* border: 2px solid blue; */
+    background-color: rgb(139, 243, 209);
+    height: 70px; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-content{
+   width: 80%;
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.chirp-div{
+    font-weight: bold;
+    color: blue;
+}
+.last-div-nav{
+    display: flex;
+   gap: 30px;
+   font-weight: bold;
+}
    /* small devices */
 @media(max-width:500px){
     nav{
